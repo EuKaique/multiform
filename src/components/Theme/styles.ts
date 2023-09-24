@@ -21,10 +21,19 @@ export const Steps = styled.div`
 export const Sidebar = styled.div`
     width: 250px;
     border-right: 1px solid #16195C;
+
+    @media (max-width: 576px){
+        display: none;
+    }
 `
 
 export const Page = styled.div`
     flex: 1;
     padding-left: 40px;
     padding-top: 40px;
+
+    @media (max-width: 576px){
+        padding-left: 2rem;
+        padding: 2rem;
+    }
 `
